@@ -1,0 +1,71 @@
+/* Apply a clean font */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 30px;
+}
+
+/* Title */
+h1 {
+  color: #333;
+}
+
+/* Input box */
+#taskInput {
+  padding: 10px;
+  width: 250px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Add button */
+#addBtn {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  background-color: #dbb5e1;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#addBtn:hover {
+  background-color: #dbb5e1;
+}
+
+/* Task list */
+#taskList {
+  list-style-type: none; /* removes bullets */
+  padding: 0;
+  margin-top: 20px;
+}
+
+/* Each task item */
+#taskList li {
+  background: #fff;
+  padding: 10px;
+  margin: 8px auto;
+  width: 300px;
+  border-radius: 5px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Delete button inside task */
+#taskList button {
+  border: none;
+  background: red;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 8px;
+}
+
+#taskList button:hover {
+  background: darkred;
+}
